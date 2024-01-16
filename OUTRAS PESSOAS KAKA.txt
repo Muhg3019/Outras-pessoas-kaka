@@ -1,0 +1,668 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+
+local Window = OrionLib:MakeWindow({Name = "MuriloHub", HidePremium = false, SaveConfig = true, ConfigFolder = "MuriloTest"})
+
+
+_G.AutoHeal = true
+
+
+function AutoHeal()
+while _G.AutoHeal == true do
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("Heal"):FireServer()
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("Heal"):FireServer()
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("Heal"):FireServer()
+wait()
+end
+end
+
+
+local Tab1 = Window:MakeTab({
+	Name = "Tab1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab1:AddSection({
+	Name = "Others"
+})
+
+
+Tab1:AddToggle({
+	Name = "AutoHeal",
+	Default = false,
+	Callback = function(Value)
+		_G.AutoHeal = Value
+AutoHeal()
+	end    
+})
+
+
+_G.SpamKnives = true
+
+
+function SpamKnives()
+while _G.SpamKnives == true do
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("OverHeavenKnife"):FireServer()
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("OverHeavenKnife"):FireServer()
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("OverHeavenKnife"):FireServer()
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("OverHeavenKnife"):FireServer()
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("OverHeavenKnife"):FireServer()
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("OverHeavenKnife"):FireServer()
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("OverHeavenKnife"):FireServer()
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("OverHeavenKnife"):FireServer()
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("OverHeavenKnife"):FireServer()
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("OverHeavenKnife"):FireServer()
+wait()
+end
+end
+
+
+Tab1:AddToggle({
+	Name = "SpamKnives",
+	Default = false,
+	Callback = function(Value)
+		_G.SpamKnives = Value
+SpamKnives()
+	end    
+})
+
+
+_G.AntiTime = true
+
+
+function AntiTime()
+while _G.AntiTime  == true do
+local args = {
+    [1] = false
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Remotes"):WaitForChild("Anchor"):FireServer(unpack(args))
+wait()
+end
+end
+
+
+Tab1:AddToggle({
+	Name = "AntiTime",
+	Default = false,
+	Callback = function(Value)
+		_G.AntiTime = Value
+AntiTime()
+	end    
+})
+
+
+_G.AutoDeflect = true
+
+function AutoDeflect()
+while _G.AutoDeflect == true do
+local args = {
+    [1] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Moves"):WaitForChild("Return To Zero"):WaitForChild("RTZ"):FireServer(unpack(args))
+wait()
+end
+end
+
+
+Tab1:AddToggle({
+	Name = "AutoDeflect",
+	Default = false,
+	Callback = function(Value)
+		_G.AutoDeflect = Value
+AutoDeflect()
+	end    
+})
+
+
+local Tab2 = Window:MakeTab({
+	Name = "Tab2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+_G.SpamDonut = true
+
+
+function SpamDonut()
+while _G.SpamDonut == true do
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild(""),
+    [2] = 115
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+wait()
+end
+end
+
+
+Tab2:AddToggle({
+	Name = "SpamDonut",
+	Default = false,
+	Callback = function(Value)
+		_G.SpamDonut = Value
+SpamDonut()
+	end    
+})
+
+
+_G.SpamGod = true
+
+
+function SpamGod()
+while _G.SpamGod == true do
+game:GetService("ReplicatedStorage").Moves:FindFirstChild("King Crimson").Epitaph:FireServer()
+wait(3.1)
+end
+end
+
+
+Tab2:AddToggle({
+	Name = "GOD (BROKEN)",
+	Default = false,
+	Callback = function(Value)
+		_G.SpamGod = Value
+SpamGod()
+	end    
+})
+
+
+_G.SpamGod1 = true
+
+
+function SpamGod1()
+while _G.SpamGod1 == true do
+local args = {
+    [1] = workspace:FindFirstChild("xingling216"),
+    [2] = -9.e+100
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild("xingling216"),
+    [2] = -9.e+100
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild("xingling216"),
+    [2] = -9.e+100
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild("xingling216"),
+    [2] = -9.e+100
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild("xingling216"),
+    [2] = -9.e+100
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild("xingling216"),
+    [2] = -9.e+100
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild("xingling216"),
+    [2] = -9.e+100
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild("xingling216"),
+    [2] = -9.e+100
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:FindFirstChild("xingling216"),
+    [2] = -9.e+100
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Donut:FireServer(unpack(args))
+wait()
+end
+end
+
+
+
+Tab2:AddToggle({
+	Name = "GOD (DONUT GOD)",
+	Default = false,
+	Callback = function(Value)
+		_G.SpamGod1 = Value
+SpamGod1()
+	end    
+})
+
+
+_G.SpamGod = true
+
+
+function SpamGod2()
+while _G.SpamGod2 == true do
+local args = {
+    [1] = -9.e+100
+}
+
+game:GetService("ReplicatedStorage").Main.Attacks.Gun:FireServer(unpack(args))
+wait()
+end
+end
+
+Tab2:AddToggle({
+	Name = "GOD GUN (FRIEND)",
+	Default = false,
+	Callback = function(Value)
+		_G.SpamGod2 = Value
+SpamGod2()
+	end    
+})
+
+
+_G.SpamScorpion = true
+
+
+function SpamScorpion()
+while _G.SpamScorpion == true do
+game:GetService("ReplicatedStorage").Moves:FindFirstChild("Gold Experience").ScorpionThrow:FireServer()
+
+game:GetService("ReplicatedStorage").Moves:FindFirstChild("Gold Experience").ScorpionThrow:FireServer()
+
+game:GetService("ReplicatedStorage").Moves:FindFirstChild("Gold Experience").ScorpionThrow:FireServer()
+
+game:GetService("ReplicatedStorage").Moves:FindFirstChild("Gold Experience").ScorpionThrow:FireServer()
+wait()
+end
+end
+
+
+Tab1:AddToggle({
+	Name = "AER GER GE",
+	Default = false,
+	Callback = function(Value)
+		_G.SpamScorpion = Value
+SpamScorpion()
+	end    
+})
+
+
+local Tab3 = Window:MakeTab({
+	Name = "Tab3",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab3:AddSection({
+	Name = "APENAS STAND VAMP / VAMP STAND ONLY"
+})
+
+
+_G.VampAtack1 = true
+
+
+function VampAtack1()
+while _G.VampAtack1 == true do
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Vampire"):WaitForChild("SpaceEyes"):FireServer()
+wait(0.1)
+end
+end
+
+
+Tab3:AddToggle({
+	Name = "1 ATACK",
+	Default = false,
+	Callback = function(Value)
+		_G.VampAtack1 = Value
+VampAtack1()
+	end    
+})
+
+
+_G.VampAtack2 = true
+
+
+function VampAtack2()
+while _G.VampAtack2 == true do
+local args = {
+    [1] = "Standless",
+    [2] = "Freeze"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("Heavy"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Standless",
+    [2] = "Freeze"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("Heavy"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Standless",
+    [2] = "Freeze"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("Heavy"):FireServer(unpack(args))
+wait()
+end
+end
+
+
+Tab3:AddToggle({
+	Name = "2 ATACK",
+	Default = false,
+	Callback = function(Value)
+		_G.VampAtack2 = Value
+VampAtack2()
+	end    
+})
+
+
+_G.VampAtack3 = true
+
+
+function VampAtack3()
+while _G.VampAtack3 == true do
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Attacks"):WaitForChild("BS"):FireServer()
+wait()
+end
+end
+
+
+Tab3:AddToggle({
+	Name = "3 ATACK",
+	Default = false,
+	Callback = function(Value)
+		_G.VampAtack3 = Value
+VampAtack3()
+	end    
+})
+
+
+local Section = Tab3:AddSection({
+	Name = "KARS"
+})
+
+
+_G.KarsLife = true
+
+
+function KarsLife()
+while _G.KarsLife == true do
+game:GetService("ReplicatedStorage").Moves.Kars.KarsV:FireServer()
+wait()
+end
+end
+
+
+Tab3:AddToggle({
+	Name = "KARSLIFE",
+	Default = false,
+	Callback = function(Value)
+		_G.KarsLife = Value
+KarsLife()
+	end    
+})
+
+
+_G.KarsDmg = true
+
+
+function KarsDmg()
+while _G.KarsDmg == true do
+local args = {
+    [1] = math.huge
+}
+
+game:GetService("ReplicatedStorage").Moves.Kars.AirSlash:FireServer(unpack(args))
+
+local args = {
+    [1] = math.huge
+}
+
+game:GetService("ReplicatedStorage").Moves.Kars.AirSlash:FireServer(unpack(args))
+wait()
+end
+end
+
+
+Tab3:AddToggle({
+	Name = "INF DMG KARS",
+	Default = false,
+	Callback = function(Value)
+		_G.KarsDmg = Value
+KarsDmg()
+	end    
+})
+
+
+OrionLib:Init()
